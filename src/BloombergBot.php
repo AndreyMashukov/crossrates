@@ -9,7 +9,7 @@
 namespace AM\Crossrates;
 
 use \Exception;
-use \Logics\Foundation\HTTP\HTTPclient;
+use \Agentzilla\HTTP\HTTPclient;
 
 /**
  * Bloomberg.com currencies bot
@@ -29,7 +29,7 @@ class BloombergBot
 	 * @return array result of query
 	 *
 	 * @throws Exception Bloomberg URL wasn't set
-         *
+     *
 	 * @exceptioncode EXCEPTION_BLOOMBERG_URL_WAS_NOT_SET
 	 */
 
